@@ -1,0 +1,29 @@
+stage,ancestry,gate,pass,note
+scaling,EUR,all_maintained_hard_gates,TRUE,"rate 20 accepted"
+scaling,AFR,all_maintained_hard_gates,TRUE,"rate 25 accepted; q99.5 upper tail retained as descriptive warning"
+full,EUR,dimensions_hard_calls,TRUE,
+full,EUR,marker_integrity,TRUE,
+full,EUR,maf_correlation,TRUE,
+full,EUR,mean_maf_difference,TRUE,
+full,EUR,heterozygosity_difference,TRUE,
+full,EUR,ld_below_100kb,TRUE,
+full,EUR,ld_score,TRUE,
+full,EUR,effective_rank,TRUE,
+full,EUR,largest_eigenvalue,TRUE,
+full,EUR,pca_displacement,TRUE,
+full,EUR,duplicate_individuals,TRUE,
+full,EUR,empirical_relatedness,TRUE,"zero duplicate/MZ and first-degree pairs"
+full,EUR,plink_genio_qgg_roundtrip,TRUE,
+full,AFR,dimensions_hard_calls,TRUE,
+full,AFR,marker_integrity,TRUE,
+full,AFR,maf_correlation,TRUE,
+full,AFR,mean_maf_difference,TRUE,
+full,AFR,heterozygosity_difference,TRUE,
+full,AFR,ld_below_100kb,TRUE,
+full,AFR,ld_score,TRUE,
+full,AFR,effective_rank,TRUE,
+full,AFR,largest_eigenvalue,TRUE,
+full,AFR,pca_displacement,TRUE,
+full,AFR,duplicate_individuals,TRUE,
+full,AFR,empirical_relatedness,TRUE,"zero duplicate/MZ and first-degree pairs; q99.5 descriptive warning"
+full,AFR,plink_genio_qgg_roundtrip,TRUE,

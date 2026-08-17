@@ -1,0 +1,17 @@
+dataset=mouse
+source=mouse_data/genotypes_imputed.rds
+individuals=1267
+markers=1813
+raw_missing_calls=19624
+imputed_missing_calls=0
+imputed_values=exact_integer_0_1_2
+observed_raw_calls_unchanged=TRUE
+genio_roundtrip_exact=TRUE
+qgg_gprep_getG_roundtrip_exact=TRUE
+pedigree_roundtrip_exact=TRUE
+mouse.bed_sha256=219c3698379e9e52a8106a0e8f6ff71460314a09c2ca579945d8559c0197b300
+mouse.bim_sha256=b61918bb39efebe96b7f5aab43794100c48bb1dea550df65dea63606aa6fb23a
+mouse.fam_sha256=107c70d9f367ca4e6842edb70d23cb748e6b2b77f8602ac6d25097ae86f6972b
+R=R version 4.4.1 (2024-06-14 ucrt)
+genio=1.1.2
+qgg=1.1.6

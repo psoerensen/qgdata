@@ -1,0 +1,5 @@
+stage,ancestry,individuals,markers,copy_rate,total_job_seconds,approximate_peak_working_set_bytes,bed_bytes
+scaling,EUR,1000,10000,20,951.4,839716864,2500003
+scaling,AFR,1000,10000,25,951.4,839716864,2500003
+full,EUR,5000,50000,20,1063.20718002319,,62500003
+full,AFR,5000,50000,25,1063.20718002319,,62500003
