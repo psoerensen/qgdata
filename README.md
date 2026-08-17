@@ -11,6 +11,10 @@ and genetic architectures are simulated elsewhere with `gsim()`.
 | `mouse_data/mouse` | 1,267 x 1,813 | Available and validated. |
 | `human_1000g_eur/human_1000g_eur` | 5,000 x 50,000 | Available and validated; EUR mosaic rate 20. |
 | `human_1000g_afr/human_1000g_afr` | 5,000 x 50,000 | Available and validated; AFR mosaic rate 25. |
+| `cattle_milk_lipids/cattle_milk_lipids` | 336 x 593,870 | Real HD imputed cattle genotypes with 56 milk polar-lipid traits. |
+| `pig_blood_lipids/laiwu/laiwu` | 316 x 61,565 | Real Laiwu genotypes with six blood-lipid traits. |
+| `pig_blood_lipids/erhualian/erhualian` | 334 x 61,565 | Real Erhualian genotypes with six blood-lipid traits. |
+| `pig_blood_lipids/dly/dly` | 610 x 61,565 | Real Duroc x (Landrace x Yorkshire) genotypes with six blood-lipid traits. |
 | `simulated_human_data/human` | 5,000 x 50,000 | Protected legacy independent-marker fixture. |
 | `1000G/sample_chr1` | 489 x 1,000 | Protected legacy chromosome 21 fixture. |
 | `1000G/sample_chr2` | 489 x 1,000 | Protected legacy chromosome 22 fixture. |
@@ -77,3 +81,30 @@ Research* 45, D854-D859 (2017), <https://doi.org/10.1093/nar/gkw829>.
 
 Downloaded sources, caches, checkpoints, temporary files, and candidate panels
 are ignored. Intended canonical BED/BIM/FAM files are not ignored.
+
+## Livestock datasets
+
+`cattle_milk_lipids` contains the source authors' unchanged PLINK files for 336
+cows, 56 milk polar-lipid phenotypes, and the combined year/batch fixed effect
+(nine levels). The genotypes are real high-density imputed genotypes based on
+Run7 of the 1000 Bull Genomes Project. See
+[`cattle_milk_lipids/README.md`](cattle_milk_lipids/README.md).
+
+`pig_blood_lipids` contains the archived GWAS data for Laiwu, Erhualian, and
+Duroc x (Landrace x Yorkshire) pigs. The three populations remain separate
+because their marker/allele representations must not be assumed harmonized.
+The shared phenotype table contains FID, IID, population, and the six archived
+blood-lipid traits. See [`pig_blood_lipids/README.md`](pig_blood_lipids/README.md).
+
+Reproduce and validate with:
+
+```text
+Rscript scripts/build_livestock_data.R --species=both
+Rscript scripts/validate_livestock_data.R
+```
+
+The builder downloads the anonymous Dryad version archives into ignored
+`cache/livestock/`, follows redirects, verifies the pinned inner-archive
+checksums, and requires `--force` before replacing existing outputs. Both
+datasets are released by Dryad under CC0; their README files give the full
+recommended citations and DOI links.

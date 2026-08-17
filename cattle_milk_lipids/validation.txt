@@ -1,0 +1,83 @@
+status=PASS
+dataset=cattle_milk_lipids
+license=CC0-1.0
+doi=https://doi.org/10.5061/dryad.bcc2fqzph
+version_url=https://datadryad.org/api/v2/versions/368250/download
+source_archive_bytes=16745878
+source_archive_sha256=d92af1f1ddd63b401b18e88d6b65ed20cdc5c366cdff24fde16224c1d34f9590
+individuals=336
+markers=593870
+missing_genotypes=0
+missing_genotype_fraction=0
+source_plink_byte_identical=TRUE
+phenotypes_byte_identical=TRUE
+fixed_effect_values_exact=TRUE
+phenotype_ids_match=TRUE
+qgg_roundtrip=valid_0_1_2_NA
+genio_roundtrip=exact
+R=R version 4.4.1 (2024-06-14 ucrt)
+PLINK2=PLINK v2.0.0-a.7.3 AVX2 (8 Aug 2026)
+qgg=1.1.6
+genio=1.1.2
+trait=PS_PL1;population=all;total=336;nonmissing=336;missing=0;mean=  1939010.8;sd=  637066.7;min=  525768;max=  3831330
+trait=PS_PL2;population=all;total=336;nonmissing=336;missing=0;mean=  4030857.9;sd= 1060080.7;min= 1666831;max=  7416597
+trait=PS_PL3;population=all;total=336;nonmissing=336;missing=0;mean=  4367928.7;sd=  766171.9;min= 2579257;max=  6977133
+trait=PS_PL4;population=all;total=336;nonmissing=336;missing=0;mean= 14017482.0;sd= 1855446.1;min= 8460731;max= 20781775
+trait=PS_PL5;population=all;total=336;nonmissing=336;missing=0;mean= 14201813.8;sd= 2522003.5;min= 8663218;max= 22562076
+trait=PS_PL6;population=all;total=336;nonmissing=336;missing=0;mean=  4612923.4;sd=  620733.2;min= 2618412;max=  6517369
+trait=PS_PL7;population=all;total=336;nonmissing=336;missing=0;mean=  5859299.3;sd=  918972.0;min= 3001977;max=  8009711
+trait=PS_PL8;population=all;total=336;nonmissing=336;missing=0;mean=  5028212.8;sd= 1239088.5;min= 2102909;max=  9806840
+trait=SM_PL9;population=all;total=336;nonmissing=336;missing=0;mean= 11339823.7;sd= 2007624.6;min= 6441322;max= 17251593
+trait=SM_PL10;population=all;total=336;nonmissing=336;missing=0;mean=  4642024.5;sd= 1121350.4;min= 1948258;max=  8588932
+trait=SM_PL11;population=all;total=336;nonmissing=335;missing=1;mean=  9427148.6;sd= 1774368.6;min= 5618914;max= 15996897
+trait=SM_PL12;population=all;total=336;nonmissing=336;missing=0;mean= 53882500.5;sd=10890027.5;min=30402268;max= 85903026
+trait=SM_PL14;population=all;total=336;nonmissing=336;missing=0;mean= 18381953.1;sd= 3610942.6;min= 9947182;max= 32578550
+trait=SM_PL16;population=all;total=336;nonmissing=335;missing=1;mean= 38262508.3;sd= 6347299.9;min=23048450;max= 61601489
+trait=SM_PL18;population=all;total=336;nonmissing=335;missing=1;mean=  3678474.4;sd=  912043.6;min= 2011608;max=  7123152
+trait=SM_PL19;population=all;total=336;nonmissing=336;missing=0;mean= 50967292.6;sd= 9226048.4;min=28861976;max= 86641422
+trait=SM_PL21;population=all;total=336;nonmissing=334;missing=2;mean=  3482047.8;sd= 1009010.6;min= 1774960;max=  7790772
+trait=SM_PL22;population=all;total=336;nonmissing=335;missing=1;mean= 52878452.4;sd=11852460.1;min=24666864;max= 90868360
+trait=SM_PL24;population=all;total=336;nonmissing=333;missing=3;mean=  3906619.0;sd= 1112206.7;min= 1813819;max=  9055888
+trait=SM_PL25;population=all;total=336;nonmissing=336;missing=0;mean= 27392831.5;sd= 5696555.6;min=12679260;max= 45797720
+trait=PE_PL26;population=all;total=336;nonmissing=331;missing=5;mean=  6277940.6;sd= 2032713.3;min= 1030716;max= 15911043
+trait=PE_PL27;population=all;total=336;nonmissing=336;missing=0;mean= 26809325.5;sd= 6550925.1;min= 6552920;max= 43928417
+trait=PE_PL28;population=all;total=336;nonmissing=336;missing=0;mean= 24423887.4;sd= 3645364.9;min=14315481;max= 34778199
+trait=PE_PL30;population=all;total=336;nonmissing=336;missing=0;mean= 32733318.1;sd= 5151728.4;min=17401267;max= 49794451
+trait=PE_PL31;population=all;total=336;nonmissing=336;missing=0;mean= 62490110.6;sd= 8592660.5;min=33093413;max= 93034405
+trait=PC_PL33;population=all;total=336;nonmissing=336;missing=0;mean= 24453866.6;sd= 7145892.9;min= 1546598;max= 46577293
+trait=PC_PL34;population=all;total=336;nonmissing=336;missing=0;mean=103692819.8;sd=22980741.1;min=14212190;max=179854807
+trait=PC_PL35;population=all;total=336;nonmissing=336;missing=0;mean= 26744027.8;sd= 6064660.6;min= 6419810;max= 46240892
+trait=PC_PL36;population=all;total=336;nonmissing=336;missing=0;mean= 34425165.8;sd= 7262645.6;min=10582421;max= 62347308
+trait=PC_PL37;population=all;total=336;nonmissing=336;missing=0;mean= 94170415.8;sd=21868120.9;min=32902395;max=166982467
+trait=PC_PL38;population=all;total=336;nonmissing=336;missing=0;mean= 21428175.5;sd= 8219712.3;min= 7158960;max= 44681251
+trait=PC_PL39;population=all;total=336;nonmissing=336;missing=0;mean= 46964400.9;sd=10263613.3;min=22855315;max= 77630567
+trait=PC_PL40;population=all;total=336;nonmissing=336;missing=0;mean=114379520.5;sd=19449472.5;min=76243249;max=178168822
+trait=PC_PL43;population=all;total=336;nonmissing=336;missing=0;mean= 25688671.2;sd= 4651556.6;min=14793125;max= 41694998
+trait=PC_PL44;population=all;total=336;nonmissing=335;missing=1;mean= 41476113.1;sd= 8223042.0;min=19914340;max= 70258237
+trait=PI_PL46;population=all;total=336;nonmissing=336;missing=0;mean=  4070183.6;sd= 1301677.0;min=  774507;max=  8194214
+trait=PI_PL47;population=all;total=336;nonmissing=336;missing=0;mean=  5905234.5;sd= 1289428.5;min= 3344032;max=  9680497
+trait=PI_PL48;population=all;total=336;nonmissing=336;missing=0;mean=  6822312.0;sd= 1731565.7;min= 3380155;max= 12579514
+trait=PI_PL49;population=all;total=336;nonmissing=336;missing=0;mean=  1059541.1;sd=  226434.7;min=  547074;max=  1758566
+trait=PI_PL50;population=all;total=336;nonmissing=336;missing=0;mean=  1408350.8;sd=  365763.4;min=  631867;max=  2601955
+trait=PI_PL51;population=all;total=336;nonmissing=335;missing=1;mean=  1138606.6;sd=  314176.0;min=  545613;max=  2209082
+trait=LPC_PL52;population=all;total=336;nonmissing=335;missing=1;mean= 10798894.7;sd= 4830323.1;min= 2384587;max= 29266554
+trait=LPC_PL53;population=all;total=336;nonmissing=334;missing=2;mean=  2424237.4;sd= 1213142.8;min=  522275;max=  7307040
+trait=LPC_PL55;population=all;total=336;nonmissing=330;missing=6;mean=  4441181.2;sd= 2706551.2;min= 1435208;max= 17516792
+trait=LPC_PL56;population=all;total=336;nonmissing=336;missing=0;mean=  2257107.5;sd=  971140.8;min=  636914;max=  5926571
+trait=LaCer_PL57;population=all;total=336;nonmissing=334;missing=2;mean=  1128192.9;sd=  391670.5;min=  419806;max=  3290800
+trait=LaCer_PL58;population=all;total=336;nonmissing=336;missing=0;mean=   641546.4;sd=  217294.1;min=  243241;max=  1363643
+trait=LaCer_PL59;population=all;total=336;nonmissing=336;missing=0;mean=  1107005.4;sd=  381615.5;min=  384779;max=  2514171
+trait=LaCer_PL60;population=all;total=336;nonmissing=336;missing=0;mean=  1416588.5;sd=  395569.5;min=  496253;max=  2744653
+trait=LaCer_PL61;population=all;total=336;nonmissing=334;missing=2;mean=  1579491.4;sd=  503882.4;min=  537238;max=  3138252
+trait=LaCer_PL62;population=all;total=336;nonmissing=336;missing=0;mean=  3108167.1;sd=  806806.5;min= 1121177;max=  5830845
+trait=LaCer_PL64;population=all;total=336;nonmissing=336;missing=0;mean=  4091956.1;sd= 1084177.4;min= 1226811;max=  7715059
+trait=LaCer_PL66;population=all;total=336;nonmissing=335;missing=1;mean=  2042315.4;sd=  601967.0;min=  557941;max=  4336254
+trait=Glucer_PL67;population=all;total=336;nonmissing=336;missing=0;mean=  1118719.9;sd=  286842.5;min=  502008;max=  2042233
+trait=Glucer_PL69;population=all;total=336;nonmissing=336;missing=0;mean=  1382088.7;sd=  313219.2;min=  704657;max=  2432690
+trait=Glucer_PL70;population=all;total=336;nonmissing=336;missing=0;mean=   813413.8;sd=  194643.2;min=  355715;max=  1506165
+file=cattle_milk_lipids.bed;bytes=49885083;sha256=cda1fc9f8d2b3bf6b39cab302735cff68aa5c2a8a3fd64967b31ecd54f909287
+file=cattle_milk_lipids.bim;bytes=17261990;sha256=d7a2936e5c5b0945a9f63c843f5c145683925bd591e49d7d5aad7411c5972687
+file=cattle_milk_lipids.fam;bytes=5712;sha256=c118e4366977fcd2dbf94d8600168b480a2e5f946407a1c4a08ac45cc9cfabbb
+file=fixed_effects.csv;bytes=4052;sha256=fcb89fd5f040c49d4f20645f660405b74277adad68262208b019e4aa82cefe01
+file=phenotypes.csv;bytes=160932;sha256=d782fedb56e7131fc1b830ddf000ef51c086c9e6568391f25ae7f65978bd41ef
+file=README.md;bytes=2626;sha256=03cc103808239eb0c0eb4806f0eff1b8da9fc66fe739497a8baeaeccad40a641

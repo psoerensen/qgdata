@@ -1,0 +1,53 @@
+status=PASS
+dataset=pig_blood_lipids
+license=CC0-1.0
+doi=https://doi.org/10.5061/dryad.4gh70
+version_url=https://datadryad.org/api/v2/versions/25357/download
+source_archive_bytes=22332040
+source_archive_md5=51bcd5b1011b55379a0425bf5c0e2a2c
+source_archive_sha256=71b2014f71c9fc2cbd2f1923fa1da9c46d2d9523041292ef7a4e6966f6e50a05
+population=laiwu;individuals=316;markers=61565;missing_genotypes=125909;missing_fraction=0.00647195975849339
+population=erhualian;individuals=334;markers=61565;missing_genotypes=123001;missing_fraction=0.00598175045993451
+population=dly;individuals=610;markers=61565;missing_genotypes=157617;missing_fraction=0.00419734333627773
+population=laiwu;ped_roundtrip_rows=316;genotype_equivalence=TRUE;qgg_roundtrip=valid_0_1_2_NA;genio_roundtrip=exact
+population=erhualian;ped_roundtrip_rows=334;genotype_equivalence=TRUE;qgg_roundtrip=valid_0_1_2_NA;genio_roundtrip=exact
+population=dly;ped_roundtrip_rows=610;genotype_equivalence=TRUE;qgg_roundtrip=valid_0_1_2_NA;genio_roundtrip=exact
+population=laiwu;phenotype_only_source_rows=0;genotype_only_rows=0
+population=erhualian;phenotype_only_source_rows=0;genotype_only_rows=1
+population=dly;phenotype_only_source_rows=89;genotype_only_rows=0
+phenotype_ids_match=TRUE
+phenotype_values_exact=TRUE
+populations_deliberately_separate=TRUE
+R=R version 4.4.1 (2024-06-14 ucrt)
+PLINK2=PLINK v2.0.0-a.7.3 AVX2 (8 Aug 2026)
+qgg=1.1.6
+genio=1.1.2
+trait=TCHOL;population=Laiwu;total=316;nonmissing=316;missing= 0;mean=2.3015506;sd=0.3759540;min=1.0600000;max=3.430000
+trait=TG;population=Laiwu;total=316;nonmissing=315;missing= 1;mean=0.2073016;sd=0.1374426;min=0.0500000;max=0.800000
+trait=HDL-C;population=Laiwu;total=316;nonmissing=314;missing= 2;mean=0.9783439;sd=0.2682635;min=0.4200000;max=2.120000
+trait=LDL-C;population=Laiwu;total=316;nonmissing=316;missing= 0;mean=1.4016139;sd=0.3078439;min=0.5300000;max=2.640000
+trait=HDL-C/LDL-C;population=Laiwu;total=316;nonmissing=314;missing= 2;mean=0.7303530;sd=0.2520834;min=0.2511628;max=1.881579
+trait=AI;population=Laiwu;total=316;nonmissing=314;missing= 2;mean=1.4773987;sd=0.5976788;min=0.2892157;max=3.925926
+trait=TCHOL;population=Erhualian;total=334;nonmissing=328;missing= 6;mean=2.2109756;sd=0.3759534;min=1.3000000;max=3.270000
+trait=TG;population=Erhualian;total=334;nonmissing=327;missing= 7;mean=0.2173945;sd=0.1174362;min=0.0600000;max=0.730000
+trait=HDL-C;population=Erhualian;total=334;nonmissing=327;missing= 7;mean=1.1964832;sd=0.4180698;min=0.2900000;max=2.170000
+trait=LDL-C;population=Erhualian;total=334;nonmissing=326;missing= 8;mean=1.4650399;sd=0.2740009;min=0.7800000;max=2.440000
+trait=HDL-C/LDL-C;population=Erhualian;total=334;nonmissing=325;missing= 9;mean=0.8397480;sd=0.3150172;min=0.2164179;max=1.971963
+trait=AI;population=Erhualian;total=334;nonmissing=323;missing=11;mean=1.0860168;sd=0.8228960;min=0.1361502;max=4.441176
+trait=TCHOL;population=Duroc_x_Landrace_x_Yorkshire;total=610;nonmissing=581;missing=29;mean=2.2432874;sd=0.2939599;min=1.4900000;max=3.280000
+trait=TG;population=Duroc_x_Landrace_x_Yorkshire;total=610;nonmissing=581;missing=29;mean=0.3774355;sd=0.1912792;min=0.0700000;max=1.370000
+trait=HDL-C;population=Duroc_x_Landrace_x_Yorkshire;total=610;nonmissing=579;missing=31;mean=0.9030225;sd=0.2058605;min=0.4300000;max=1.540000
+trait=LDL-C;population=Duroc_x_Landrace_x_Yorkshire;total=610;nonmissing=581;missing=29;mean=1.3442169;sd=0.2278784;min=0.7800000;max=2.100000
+trait=HDL-C/LDL-C;population=Duroc_x_Landrace_x_Yorkshire;total=610;nonmissing=579;missing=31;mean=0.6888066;sd=0.1843954;min=0.2184466;max=1.243590
+trait=AI;population=Duroc_x_Landrace_x_Yorkshire;total=610;nonmissing=578;missing=32;mean=1.5822632;sd=0.5509150;min=0.5825243;max=3.440678
+file=dly/dly.bed;bytes=9419448;sha256=76a5dcbe0af5c6a570143143e212f918e26b0fd51a1e0daad6a686d33880f74b
+file=dly/dly.bim;bytes=1847112;sha256=0f7f24190f16ad21cdf0a13d9158fd44f4b35cd7fd8b1063a41ee3159b84f9bc
+file=dly/dly.fam;bytes=12702;sha256=748fc9f13b8570baaf843cfcfb5e7d1dabbf7b08b641241d30cbb7e3ba29d280
+file=erhualian/erhualian.bed;bytes=5171463;sha256=275760ce7f057a17fcd066b84ce74ee1829fc93e1ee0f65a2d5d6a18c2d6bfa6
+file=erhualian/erhualian.bim;bytes=1847112;sha256=0e45ff683b8808964f83502ff455af586ddc0cc7a3d11acb1960e7334764cf2f
+file=erhualian/erhualian.fam;bytes=6576;sha256=e7394cbd8a33a540d18ea91e72b6d492338a41f290645a9755019fe8517eaebf
+file=laiwu/laiwu.bed;bytes=4863638;sha256=78878d467c93026dbb658ac7ae52eefe655f8d4cb72b531518b3116d9e47dcd7
+file=laiwu/laiwu.bim;bytes=1847112;sha256=6214f2f5c2ba1de65d56b5740c34d2e8d9c6e6e3a79f33a96a76a3c0d72aa722
+file=laiwu/laiwu.fam;bytes=5856;sha256=0da2b4c592b48c88856b5c07b2efa326603eb872bcd0ecc21b49c8004453ee21
+file=phenotypes.csv;bytes=90260;sha256=d1cfb97f02b98a0c09ccd2a564642c3d41fee9584a5f80a71aa3c6271f65f0bc
+file=README.md;bytes=2767;sha256=b3c9d5341964f256326b0ee95aa6543c0c760e0889ff5fd8dc572d74ffb8de9b
